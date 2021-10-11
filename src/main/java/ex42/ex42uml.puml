@@ -1,0 +1,15 @@
+@startuml
+
+class App {
+    main()
+    parseData text
+}
+
+class parseData {
+    ArrayList<String> object
+    addlist()
+    list()
+    printlist()
+}
+app <-- parseData
+@enduml

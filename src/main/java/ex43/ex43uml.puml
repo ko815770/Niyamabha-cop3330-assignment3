@@ -1,0 +1,16 @@
+@startuml
+
+class App {
+    main()
+    website web
+}
+
+class parseData {
+    String name, author
+    Char Java, Css
+    set()
+    get()
+    makeweb(name, author, Java, Css)
+}
+app <-- parseData
+@enduml
